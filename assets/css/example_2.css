@@ -1,0 +1,60 @@
+
+/*  GENERAL STYLES */
+.img-small {
+    width: 100%;
+    height: auto;
+}
+
+.display-table {
+  display: table;
+}
+
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: clamp(1.2rem, 5vw, 3rem);
+    text-align: center;
+}
+
+.text {
+    font-size: clamp(0.8rem, 5vw, 1.2rem);
+}
+
+.image-bg {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* NAVBAR */
+.navbar {
+    background: rgba(0,0,0, 0.5);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+/* HERO SECTION */
+
+#hero {
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,.2),#1f43e4), url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    color: #fff;
+    height: 100vh;
+}
+
+/* SERVICES */ 
+#services {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,.2),#1f43e4), url(https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    color: #fff;
+    margin-top: -30px;
+}
+
+
