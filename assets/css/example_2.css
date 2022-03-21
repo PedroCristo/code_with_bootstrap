@@ -54,7 +54,20 @@
     height: 60vh;
     background-image: linear-gradient(rgba(0,0,0,.2),#1f43e4), url(https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     color: #fff;
-    margin-top: -30px;
+    
+}
+
+#services .btn {
+    margin-bottom: 50px;
+}
+
+/* Responsivo CSS */
+
+@media only screen and (max-width:1400px) and (max-height:800px){
+
+    #services {
+     height: 80vh;
+    }
 }
 
 
